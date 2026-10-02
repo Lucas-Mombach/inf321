@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Loja de Parafusos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Produtos</h1>
+<p>Bem-vind@ à nossa página de catálogo. Confira os itens disponíveis abaixo ou utilize o formulário para adicionar novos produtos ao sistema.</p>
+</header>
+
+<main>
+<section class="busca-secao">
+  <input type="text" id="input-busca" placeholder="Pesquisar parafusos...">
+  <button id="btn-buscar">Buscar</button>
+</section>
+
+<section class="secao-produtos">
+<h2>Produtos disponíveis</h2>
+
+<div class="produtos-container">    
+  <div class="card produto-card">
+  <img src="https://www.tfasteners.com/wp-content/uploads/2024/05/9.Deck-Screw.jpg" alt="Foto de varios parafusos de convés">
+  <h3 class="produto-nome">Parafuso de convés</h3>
+  <p>R$ 3,00</p>
+  <a href="/detalhes/Parafuso_de_convés">Ver detalhes</a>
+  <button class="btn-comprar btn-padrao">Comprar</button>
+  </div>
+
+  <div class="card produto-card">
+  <img src="https://www.tfasteners.com/wp-content/uploads/2024/09/knurled-thumb-screws-3.jpg" alt="Foto de 4 parafusos de aperto manual">
+  <h3 class="produto-nome">Parafusos de aperto manual</h3>
+  <p>R$ 2,50</p>
+  <a href="/detalhes/Parafusos_de_aperto_manual">Ver detalhes</a>
+  <button class="btn-comprar btn-padrao">Comprar</button>
+  </div>
+
+  <div class="card produto-card">
+  <img src="https://www.tfasteners.com/wp-content/uploads/2024/05/3.Self-tapping-screw.jpg" alt="Foto de 3 parafusos auto-roscantes">
+  <h3 class="produto-nome">Parafusos auto-roscantes</h3>
+  <p>R$ 1,00</p>
+  <a href="/detalhes/Parafusos_auto-roscantes">Ver detalhes</a>
+  <button class="btn-comprar btn-padrao">Comprar</button>
+  </div>
+</div>
+</section>
+
+<section class="secao-cadastro">
+<h2>Contacte-nos</h2>
+<form id="form-contato">
+  <p>Nome:</p>
+  <input type="text" id="nome" name="nome">
+
+  <p>E-mail:</p>
+  <input type="email" id="email" name="email">
+
+  <p>Mensagem:</p>
+  <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+  <br><br>
+
+  <button type="submit">Enviar Mensagem</button>
+</form>
+</section>
+</main>
+
+<footer>
+<p>A Loja de Parafusos</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
